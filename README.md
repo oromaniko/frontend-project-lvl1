@@ -4,3 +4,9 @@
 
 [![linter](https://github.com/oromaniko/frontend-project-lvl1/actions/workflows/run-linter.yml/badge.svg)](https://github.com/oromaniko/frontend-project-lvl1/actions/workflows/run-linter.yml)
 
+# brain-even
+<a href="https://asciinema.org/a/Hck4Mva3TyE72m8mJgG1MvXzt" target="_blank"><img src="https://asciinema.org/a/Hck4Mva3TyE72m8mJgG1MvXzt.svg" /></a>
+
+# brain-calc
+<a href="https://asciinema.org/a/BFy1dH9q9bR2QsLU3sitNyDwi" target="_blank"><img src="https://asciinema.org/a/BFy1dH9q9bR2QsLU3sitNyDwi.svg" /></a>
+

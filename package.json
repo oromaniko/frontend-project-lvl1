@@ -24,6 +24,7 @@
   "homepage": "https://github.com/oromaniko/frontend-project-lvl1#readme",
   "dependencies": {
     "@hexlet/pairs": "^1.1.1",
+    "frontend-project-lvl1": "^1.4.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
