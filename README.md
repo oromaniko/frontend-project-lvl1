@@ -10,3 +10,6 @@
 # brain-calc
 <a href="https://asciinema.org/a/BFy1dH9q9bR2QsLU3sitNyDwi" target="_blank"><img src="https://asciinema.org/a/BFy1dH9q9bR2QsLU3sitNyDwi.svg" /></a>
 
+# brain-gcd
+<a href="https://asciinema.org/a/gHQVVrBFitwfZS48gmBNcLdsg" target="_blank"><img src="https://asciinema.org/a/gHQVVrBFitwfZS48gmBNcLdsg.svg" /></a>
+
