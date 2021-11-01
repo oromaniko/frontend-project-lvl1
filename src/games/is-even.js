@@ -1,8 +1,8 @@
+import { cons } from '@hexlet/pairs';
 import playGame from '../index.js';
+import { getRandomInt } from '../random.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
-
-const makeRandom = () => Math.floor(Math.random() * 101);
 
 const isEven = (num) => {
   if (num % 2 === 0) {
@@ -11,4 +11,10 @@ const isEven = (num) => {
   return 'no';
 };
 
-export default () => playGame(description, makeRandom, isEven);
+const getGameAnswerAndQuestion = () => {
+  const question = getRandomInt(1, 100);
+  const answer = isEven(question);
+  return cons(question, answer);
+};
+
+export default () => playGame(description, getGameAnswerAndQuestion);
