@@ -21,12 +21,10 @@ const playGame = (description, getGameAnswerAndQuestion) => {
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${userName}`);
-      break;
+      return;
     }
 
-    if (i === 1) {
-      console.log(`Congratulations, ${userName}!`);
-    }
+    console.log(`Congratulations, ${userName}!`);
   }
 };
 
