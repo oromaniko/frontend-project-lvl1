@@ -14,10 +14,10 @@ const getGameAnswerAndQuestion = () => {
     progression.push(firstNum + step * i);
   }
 
-  const index = getRandomInt(0, 9);
-  const correctAnswer = progression[index];
+  const hiddenNumberIndex = getRandomInt(0, 9);
+  const correctAnswer = progression[hiddenNumberIndex];
 
-  progression[index] = '..';
+  progression[hiddenNumberIndex] = '..';
   const question = progression.join(' ');
 
   return cons(question, correctAnswer);
