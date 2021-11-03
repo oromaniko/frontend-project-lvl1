@@ -14,7 +14,7 @@ const getGameAnswerAndQuestion = () => {
     progression.push(firstNum + step * i);
   }
 
-  const hiddenNumberIndex = getRandomInt(0, 9);
+  const hiddenNumberIndex = getRandomInt(0, progressionLength - 1);
   const correctAnswer = progression[hiddenNumberIndex];
 
   progression[hiddenNumberIndex] = '..';
